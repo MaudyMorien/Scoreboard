@@ -32,6 +32,7 @@ export default class Scoreboard extends Component {
         score={player.score}
         key={player.id}
         updatePlayerScore={this.updatePlayerScore}
+        removePlayer={this.removePlayer}
         />
     )
   }
@@ -44,11 +45,7 @@ export default class Scoreboard extends Component {
     this.setState({
       players: this.state.players.concat(player)
     })
-  }
-  
-  handleOnClick = () => {
-    const {id, score} = this.props
-    this.props.updatePlayerScore(id, score + 1)
+   
   }
   render() {
     return (
@@ -83,5 +80,7 @@ export default class Scoreboard extends Component {
    )
    this.setState({ players: updatedPlayers })
   }
+  removePlayer = () =>  {
+    return this.state.players.shift()
 }
-
+}

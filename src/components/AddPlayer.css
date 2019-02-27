@@ -7,7 +7,9 @@
   .add-player form {
     flex: 1;
     display: flex;
-    border: 1px solid #ccc;
+    background-color: #C8D4D0;
+    border: 2px solid #317A89;
+    border-radius: 5px;
     justify-content: space-between;
     padding: 20px;
     box-shadow: 1px 1px 5px rgba(0,0,0, 0.2);
@@ -20,7 +22,8 @@
   .add-player input {
     flex: 1;
     font-size: 150%;
-    border: 1px solid #ccc;
+    border: 1px solid #7BABAF;
+    border-radius: 5px;
     padding: 10px 5px;
   }
   
@@ -33,4 +36,5 @@
     text-transform: uppercase;
     cursor: pointer;
     margin-left: 10px;
+    background-color: #86B4C1;
   }

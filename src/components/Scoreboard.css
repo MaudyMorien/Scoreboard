@@ -2,9 +2,12 @@
     width: 500px;
     margin: 30px auto;
     padding: 0;
-    box-shadow: 1px 1px 5px rgba(0,0,0, 0.2);
+    background-color: #C8D4D0;
+    box-shadow: 1px 1px 10px rgba(0,0,0, 0.2);
+    border: 1px solid #317A89;
+    border-radius: 5px;
   }
   
   .scoreboard h1 {
     text-align: center;
-  }
+    }
